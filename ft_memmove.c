@@ -6,14 +6,11 @@
 /*   By: tunsal <tunsal@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 11:02:14 by tunsal            #+#    #+#             */
-/*   Updated: 2023/10/31 00:37:24 by tunsal           ###   ########.fr       */
+/*   Updated: 2023/10/31 00:41:52 by tunsal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/* Prevent underflow! */
-#define SIZE_T_MIN 0
 
 /*
    Copy `len` bytes from string `src` to string `dest`.
